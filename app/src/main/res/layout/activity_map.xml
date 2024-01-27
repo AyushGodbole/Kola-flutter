@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Map">
+
+
+    <fragment
+        android:id="@+id/google_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pick_up"
+        android:queryHint="Pickup"
+        android:iconifiedByDefault="false"
+        android:layout_margin="10dp"
+        android:elevation="5dp"
+        android:queryBackground="@color/white"
+        />
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/drop_off"
+        android:queryHint="Drop off"
+        android:iconifiedByDefault="false"
+        android:layout_margin="10dp"
+        android:elevation="5dp"
+        android:layout_below="@+id/pick_up"
+        android:queryBackground="@color/white"
+        />
+
+</RelativeLayout>

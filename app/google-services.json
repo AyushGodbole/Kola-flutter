@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "293395467948",
+    "project_id": "taxi-booking-8c009",
+    "storage_bucket": "taxi-booking-8c009.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293395467948:android:200cbe9a18c493cfcd9909",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293395467948-q6fm77ksk1pfq4d9fc3a31t6jk3ogghq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2EhgdbgvuZ4PmYPC9saZtsJHs9SU-HBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293395467948-q6fm77ksk1pfq4d9fc3a31t6jk3ogghq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293395467948:android:297b1f8149c8553ecd9909",
+        "android_client_info": {
+          "package_name": "com.example.cabbooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293395467948-q6fm77ksk1pfq4d9fc3a31t6jk3ogghq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2EhgdbgvuZ4PmYPC9saZtsJHs9SU-HBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293395467948-q6fm77ksk1pfq4d9fc3a31t6jk3ogghq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

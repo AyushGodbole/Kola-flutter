@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F1F6E9">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="560dp"
+        android:id="@+id/firstlayout"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_location_on_24"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="35dp"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="-43dp"
+            android:hint="Kola"
+            android:textColorHint="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/driverbtn"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/firstlayout"
+            android:layout_gravity="center"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/continuewithphonenumber"
+            android:gravity="center"
+            android:text="Driver"
+            android:textColor="@color/white"
+            android:textStyle="bold">
+
+        </Button>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:text="Customer"
+        android:textColor="@color/white"
+        android:background="@drawable/continuewithphonenumber"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:id="@+id/customerbtn"
+        android:layout_below="@+id/firstlayout">
+
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/copyright"
+        android:text="By continuing, you agree that you have read and accept\nour TCs and PrivacyPolicy ?"
+        android:textColor="#808080"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/customerbtn"
+        android:layout_centerHorizontal="true"
+        android:textSize="12dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+    </TextView>
+
+</RelativeLayout>
+
+

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="we_will_send_you_an_otp_on_this_given_mobile_number">We will send you an otp on this given mobile number</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_driver_map">DriverMapActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_delete">delete</string>
+    <string name="title_activity_new_map">NewMap</string>
+
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_password">Invalid password, please enter at least 6 characters</string>
+
+
+</resources>
+
